@@ -1,0 +1,53 @@
+/* Apply the static gradient background */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #000000, #434343); /* Static black-to-gray gradient */
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid transparent; /* Transparent border */
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+/* Header styling */
+h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    color: white;
+    font-size: 14px;
+    width: 486px;
+    margin: 0 auto;
+}
+
+/* Button styling */
+button {
+    background: #434343;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 50px;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #000000;
+}
